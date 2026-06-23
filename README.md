@@ -1,36 +1,34 @@
-# STOCK_TAKER
+# Inventory Security Tracker
 
-## Short Description
+A Python application for tracking product stock.
 
-Stock Taker is a Python program used to track the stock of products.
+## Features
 
-## Table of Contents
+- Add, remove, and update product stock
+- View current inventory levels
+- Search products by name or ID
+- Generate inventory reports
 
-1. [Files](#files)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Credits](#credits)
+## Tech Stack
 
-## 1. Files
+- Python 3.x
 
-The project consists of two main files:
+## Installation
 
-- `inventory.py`: The Python script that contains the Stock Taker program.
-- `inventory.txt`: A sample text file used for storing the inventory data.
+```bash
+git clone https://github.com/ZeakMeadows/inventory-security-tracker.git
+cd inventory-security-tracker
+python inventory_tracker.py
+```
+## What I Learned
 
-## 2. Installation
+- Basic data management with Python
+- Simple search functionality
+- Report generation
 
-1. Clone this repository or download the ZIP file.
-2. Ensure that both `inventory.py` and `inventory.txt` are in the same folder.
-3. Open the folder in your preferred Python code editor.
+## Future Improvements
 
-## 3. Usage
-
-1. Run the `inventory.py` Python script.
-2. The program will prompt you with questions to manage the stock of products.
-3. Use your keyboard to provide input and answer the questions as required.
-
-## 4. Credits
-
-Credit for this project goes to [ZeakMeadows](https://github.com/ZeakMeadows). Thank you for your contributions!
-
+- [ ] Add input validation for stock quantities
+- [ ] Add data persistence with database
+- [ ] Add user authentication
+- [ ] Add audit logging for stock changes
